@@ -18,19 +18,6 @@ const material = new THREE.MeshBasicMaterial( {color: 0xffffff, side: THREE.Doub
 const plane = new THREE.Mesh( geometry, material );
 scene.add( plane );
 
-//board.rotation.x = -Math.PI / 2; // Lay flat
-
-/*
-// Create a card
-const card = new THREE.Mesh(
-  new THREE.BoxGeometry(0.0635, 0.003, 0.0889),
-  new THREE.MeshStandardMaterial({ 
-    color: 0x505050
-  })
-);
-card.position.set(0, 0.002, 0); // Slightly above board
-scene.add(card);
-*/
 // Position camera
 camera.position.set(1, 1, 2);
 camera.lookAt(0, 0, 0);

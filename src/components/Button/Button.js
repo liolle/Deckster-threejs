@@ -29,7 +29,6 @@ export class Button {
     Cleaner.registerCleaup(this._element,()=>{
       this.#dispose()
     }) 
-
   }
 
   /**
@@ -76,4 +75,3 @@ export class QuitGameButton  extends Button {
     });
   }
 }
-
